@@ -2,7 +2,7 @@
 * [Overview del progetto](#overview-del-progetto)
 * [Strumento di supporto](#Strumento-di-supporto)
 * [Repository](#Repository)
-* [Team di sviluppo](#team-di-sviluppo)
+* [Team di sviluppo](#Team-di-sviluppo)
 ---
 
 ## Overview del progetto 🐾
