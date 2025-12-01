@@ -31,7 +31,7 @@ Lavoriamo per promuovere una gestione moderna, resiliente e interoperabile della
 
 ---
 
-## 🚀 Installazione ed esecuzione
+## 🚀 Installazione
 
 ---
 
