@@ -1,5 +1,10 @@
 ## 📚 Indice
 * [Overview del progetto](#overview-del-progetto)
+    * [La Nostra visione](#La-Nostra-Visione)
+    * [Cosa facciamo](#Cosa-Facciamo)
+* [Installazione ed esecuzione](#installazione-ed-esecuzione)
+    * [Prerequisiti](#prerequisiti)
+    * [Installazione Maven](#installazione-maven)
 * [Strumento di supporto](#Strumento-di-supporto)
 * [Repository](#Repository)
 * [Team di sviluppo](#Team-di-sviluppo)
@@ -26,7 +31,32 @@ Lavoriamo per promuovere una gestione moderna, resiliente e interoperabile della
 
 ---
 
-### 🛠️ Strumenti di Supporto
+## 🚀 Installazione ed esecuzione
+
+---
+
+### ✅ Prerequisiti
+* Node.js (22.16.0)
+* Java JDK 21.0.8
+* Apache Maven 3.9.11
+* Docker 4.51.0
+* Intellij IDEA 2025.2.5 (per il backend)
+* WebStorm IDEA 2025.2.5 (per il frontend)
+
+---
+
+### ⚙️ Installazione Maven
+Per installare maven su sistema Windows è necessario aver già installato **Java Development Kit (JDK)** ed aver configurato la variabile d'ambiente `JAVA_HOME`.
+
+Dopodichè è necessario seguire i seguenti passaggi:
+1. Scaricare `apache-maven-3.9.11-bin.zip` dalla seguente pagina: [https://maven.apache.org/download.cgi](https://maven.apache.org/download.cgi)
+2. Effettuare l'unzip del file scaricato al passo uno all'interno di una qualsiasi directory (preferibilmente in `Program Files`)
+3. Aggiungere la directory della cartella `bin` (contenuta nella cartella estratta al passo 2) alla variabile d'ambiente `PATH`
+4. Verificare se l'installazione è andata a buon fine utilizzando il comando `mvn -v` all`interno di una nuova shell
+
+---
+
+## 🛠️ Strumenti di Supporto
 * Maven: Strumento di build e gestione delle dipendenze del progetto.
 * Checkstyle: Strumento per il controllo dello stile e delle convenzioni del codice Java, utilizzato per mantenere la qualità del codice.
 * JUnit e Spring Test: Framework e integrazione per l'esecuzione di test unitari e di integrazione.
